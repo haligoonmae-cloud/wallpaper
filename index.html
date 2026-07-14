@@ -12,14 +12,15 @@ img {
   display: block;
 }
 </style>
+  img {
+  user-select: none;
+  -webkit-user-drag: none;
+}
+<body oncontextmenu="return false;">
 </head>
 
 <body>
 <img src="wallpaper.jpg">
 </body>
 </html>
-img {
-  user-select: none;
-  -webkit-user-drag: none;
-}
-<body oncontextmenu="return false;">
+
